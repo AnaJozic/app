@@ -56,19 +56,20 @@
     <EditText
         android:layout_width="286dp"
         android:layout_height="50dp"
-        android:layout_marginTop="286dp"
+        android:layout_marginTop="272dp"
+        android:autofillHints=""
         android:backgroundTint="@color/white"
         android:drawableStart="@drawable/ic_padlock"
         android:drawablePadding="20dp"
-        android:hint="@string/lozinka"
         android:fontFamily="@font/chivo_light"
-        android:textColorHint="@color/white"
+        android:hint="@string/lozinka"
         android:inputType="textPassword"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        android:autofillHints=""
         tools:targetApi="lollipop" />
 
     <Button
